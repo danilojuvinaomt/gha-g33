@@ -48,4 +48,18 @@ public class Clase1Test {
         assertEquals(9, result);
     }
     
+    @Test
+    public void testSuma2(){
+        Clase1 instance = new Clase1();
+        int result = instance.suma(10, 50);
+        assertEquals(60, result);
+    }
+    
+    @Test
+    public void testSuma3(){
+        Clase1 instance = new Clase1();
+        int result = instance.suma(-10, -15);
+        assertEquals(25, result);
+    }
+    
 }
