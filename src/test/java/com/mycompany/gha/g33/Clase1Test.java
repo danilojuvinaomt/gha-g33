@@ -59,7 +59,7 @@ public class Clase1Test {
     public void testSuma3(){
         Clase1 instance = new Clase1();
         int result = instance.suma(-10, -15);
-        assertEquals(25, result);
+        assertEquals(-25, result);
     }
     
 }
